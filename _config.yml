@@ -17,7 +17,7 @@ baseurl: ""
 title: donggri Website
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: 흔한 블로그
 
 # --- Navigation bar options --- #
 
@@ -25,9 +25,9 @@ description: A virtual proof that name is awesome!
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - related rink1: "http://deanattali.com/beautiful-jekyll/"
-    - related rink1: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
+    - related rink1: "http://www.naver.com/"
+    - related rink2: "http://www.markdowntutorial.com/"
+    - naver: "https://www.naver.com/"
   Author's home: "http://www.naver.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -42,8 +42,8 @@ avatar: "/img/avatar-icon.png"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#F5F5F5"
-navbar-text-col: "#404040"
+navbar-col: "#75aaff"
+navbar-text-col: "#42f7a0"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
 link-col: "#008AFF"
@@ -55,7 +55,7 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-# navbar-img: "/img/bgimage.png"
+ navbar-img: "/img/bgimage.png"
 # footer-img: "/img/bgimage.png"
 # page-img: "/img/bgimage.png"
 
@@ -64,7 +64,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: 서동현
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -74,7 +74,7 @@ social-network-links:
   rss: true
   email: "someone@example.com"
   facebook: daattali
-  github: daattali
+  github: https://github.com/donggrigri
   twitter: daattali
 #  reddit: yourname
 #  google-plus: +DeanAttali
